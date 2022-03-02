@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/geccodev/public_html/
+    - /bin/cp * images $DEPLOYPATH
